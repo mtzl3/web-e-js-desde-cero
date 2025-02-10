@@ -25,3 +25,4 @@ console.log("function(){} es un tipo de dato: " + typeof function(){}); // Funci
 console.log("Symbol('id') es un tipo de dato: " + typeof Symbol("id")); // Simbolo
 console.log("BigInt(9007199254740991) es un tipo de dato: " + typeof BigInt(2338288457861884)); // Bingint
 
+
