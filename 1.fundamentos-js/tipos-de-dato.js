@@ -26,3 +26,27 @@ console.log("Symbol('id') es un tipo de dato: " + typeof Symbol("id")); // Simbo
 console.log("BigInt(9007199254740991) es un tipo de dato: " + typeof BigInt(2338288457861884)); // Bingint
 
 
+console.log(0 === false)
+
+
+let edad = 19;
+
+if (edad >= 18) {
+
+   console.log("Puedes votar");
+
+}
+else {
+    console.log("No puedes votar");
+}
+
+
+let tieneLicencia = true;
+
+if (edad >= 18 && tieneLicencia) {
+
+   console.log("Puedes conducir");
+
+} else {
+   console.log("No puedes conducir");
+}
